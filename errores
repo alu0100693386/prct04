@@ -1,0 +1,21 @@
+
+	Práctica 4: listado de errores.
+
+	1º- Cada uno a realizado un merge local con su codigo en la rama master. Al realizar el segundo pusheo, git no puede realizar un avance rapido, por lo que solicita al usuario que lo solucione. 
+	
+	"To git@github.com:alu0100693386/prct04.git
+	 ! [rejected]        master -> master (non-fast-forward)
+	error: failed to push some refs to 'git@github.com:alu0100693386/prct04.git'
+	To prevent you from losing history, non-fast-forward updates were rejected
+	Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+	'Note about fast-forwards' section of 'git push --help' for details."
+
+	Para solucionar el conflicto, debemos ejecutar un git pull, donde obtendremos un fichero donde debemos solucionar los conflictos. Una vez solucionados avisamos al repositorio de que termine la operacion con el comando "git rebose --continue".
+	
+	"Applying: Suma lista"
+
+	Finalmente pusheamos de nuevo el archivo, esta vez sin errores.
+	
+
+
+ 
