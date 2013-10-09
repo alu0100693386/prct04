@@ -1,6 +1,7 @@
 #!/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
 
 
+
 def multiplicacion ()
   
   #operandos
@@ -50,7 +51,9 @@ end
 
 multiplicacion()
 
+
 def suma
+	
 	a=[[10, 2, 3], [9, 20, 32], [6, 9, 10]]
 	b=[[2, 20, 30], [4, 7, 12], [5, 9, 4 ]]
 	c=[[0,0,0],[0,0,0],[0,0,0]]
